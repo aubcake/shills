@@ -1,6 +1,25 @@
 # shills
 
-A curated collection of confidently useless agent skills.
+A curated collection of useless agent skills.
+
+## Skills
+
+| Skill | What it does |
+|-------|--------------|
+| [**emerils-revenge**](skills/emerils-revenge/) | Get unsolicited advice from celebrity chef Emeril Lagasse. |
+| [**farmer-wisdom**](skills/farmer-wisdom/) | Puts a tiny farmer in your command line. |
+| [**kobayashi-special**](skills/kobayashi-special/) | Everything is relative to hot dogs. |
+| [**lizard-people**](skills/lizard-people/) | They live. |
+| [**permanent-pedometer**](skills/permanent-pedometer/) | Update with your shoe size to get all distances in steps.|
+| [**sail-away**](skills/sail-away/) | Dates and time spans are expressed relative to the sinking of the Titanic. |
+| [**token-saver-9000**](skills/token-saver-9000/) | One word answers for yes/no questions.|
+
+### Skill interactions
+
+- **kobayashi-special** handles short lengths; **permanent-pedometer** handles long distances. They cross-reference each other.
+- **farmer-wisdom** does not apply when **token-saver-9000** is invoked — you cannot reckon in one word.
+
+All skills apply only to conversational replies, not to work artifacts (code, docs, emails, etc.).
 
 These are markdown instructions that tell the AI how to behave in specific situations. They work exactly as designed (which is to say they are _not_ designed to help you get work done).
 
@@ -73,26 +92,7 @@ git clone https://github.com/aubcake/shills.git .agents/skills/shills    # proje
 hermes skills tap add aubcake/shills
 ```
 
-**That's it!** Your agent will automatically discover the skills and use them when relevant. You can also invoke any skill manually by mentioning the skill name in your prompt. Installing the full collection is encouraged for maximum shenanigans.
-
-## Skills
-
-| Skill | What it does |
-|-------|--------------|
-| [**emerils-revenge**](skills/emerils-revenge/) | Get unsolicited advice from celebrity chef Emeril Lagasse. |
-| [**farmer-wisdom**](skills/farmer-wisdom/) | Puts a tiny farmer in your command line. |
-| [**kobayashi-special**](skills/kobayashi-special/) | Everything is relative to hot dogs. |
-| [**lizard-people**](skills/lizard-people/) | They live. |
-| [**permanent-pedometer**](skills/permanent-pedometer/) | Update with your own shoe size. (Don't judge.) |
-| [**sail-away**](skills/sail-away/) | Dates and time spans are expressed relative to the sinking of the Titanic. I'll never let go. |
-| [**token-saver-9000**](skills/token-saver-9000/) | One word answers for yes/no questions.|
-
-### Skill interactions
-
-- **kobayashi-special** handles short lengths; **permanent-pedometer** handles long distances. They cross-reference each other.
-- **farmer-wisdom** does not apply when **token-saver-9000** is invoked — you cannot reckon in one word.
-
-All skills apply only to conversational replies, not to work artifacts (code, docs, emails, etc.).
+**That's it!** Your agent will automatically discover the skills and use them when relevant. You can also invoke any skill manually by mentioning the skill name in your prompt. 
 
 ## Add your own
 
