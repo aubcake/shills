@@ -105,7 +105,13 @@ skills/your-skill-name/
 
 The `SKILL.md` needs YAML frontmatter with `name` and `description`, plus instructions in the body. See Cursor's [skill docs](https://cursor.com/docs/agent/skills) for the full format.
 
+New to this and don't write code? No problem — [CONTRIBUTING.md](CONTRIBUTING.md) walks you through adding a skill entirely in your browser, step by step.
+
 The bar is low. The bar is also on the floor. That's the point.
+
+## Contributing
+
+Anyone can add a skill — no coding required. See [CONTRIBUTING.md](CONTRIBUTING.md) for a step-by-step, browser-only guide that walks you through it from start to finish.
 
 ## License
 
